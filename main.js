@@ -38,8 +38,15 @@ Ex: addKeyPowerIndex(arrOfObj2)
 ]   
 */
 
-function addKeyPowerIndex() {
-  // WRITE YOUR CODE UNDER THIS LINE  
+function addKeyPowerIndex(arrOfObj1) {
+  var x=[{}]
+  arrOfObj1.forEach(element => {element.key*element.value
+    
+  });
+  {
+  x.push(element.value) // must you push element after update and return new object insaid array
+  }
+  return x
 
 }
 
@@ -57,15 +64,16 @@ and return a new array after will decrease this number
 from each element in this array
 
 var arrOfNum1 = [77,5,33]
-Ex: decreseBy(arrOfnum1,10)
+Ex: decreseBy(arrOfNum1,10)
 => [67,-5,23]
 
 Ex: decreseBy(arrOfNum1,-6)
 => [83, 11, 39]
 */
 
-function decreseBy() {
-  // WRITE YOUR CODE UNDER THIS LINE 
+function decreseBy(arr) {
+  var x= arr.map(elem=>elem-10 || elem+6)
+  return x;
 
 }
 
@@ -102,8 +110,11 @@ Ex: nameLongerThan(arrOfObj4,6)
 ]
 */
 
-function nameLongerThan() {
-  // WRITE YOUR CODE UNDER THIS LINE         
+function nameLongerThan(arrOfObj) {
+var arr ={}
+var x= ""
+arrOfObj.filter(elem=>elem.name.length>x)
+return arr
 }
 
 
@@ -133,8 +144,8 @@ Ex: avgLength(arrOfObj4,"food")
 => 6.8
 */
 
-function avgLength() {
-  // WRITE YOUR CODE UNDER THIS LINE         
+function avgLength(arrOfObj4) {
+    
 
 }
 
